@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Learning</title>
+  
+  <script src="https://kit.fontawesome.com/d98c032db7.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <!-- Navigation -->
+
+  <nav>
+    <img src="images/logo.svg" alt="">
+    <div class="navigation">
+      <ul>
+        <i id="menu-close" class="fa-solid fa-xmark"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a class="active" href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <img id="menu-btn" src="images/menu.png" alt="">
+    </div>
+  </nav>
+
+  <!-- Home  -->
+
+  <section id="about-home">
+      <h2>Enroll Our Popular Courses And Skill Up |</h2>
+  </section>
+
+  <section id="course-inner">
+    <div class="overview">
+      <img class="course-img" src="images/c1.jpg" alt="">
+      <div class="course-head">
+        <div class="c-name">
+          <h2>Java Course</h2>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           </div>
+           <p>Modern Java from the beginning - all the way up to Java expert level! THE must-have Java resource in 2022</p>
+        </div>
+        <span>$49.99</span>
+      </div>
+      <h3>Instructor</h3>
+      <div class="tutor">
+        <img src="images/c4.jpg" alt="">
+        <div class="tutor-det">
+          <h5>John Doe</h5>
+          <p>Web Developer At Google</p>
+        </div>
+      </div>
+      <hr>
+      <h3>Course Overview</h3>
+      <p>Welcome to the University Extension sample Canvas course. This course is intended to give you an opportunity to explore the content, design, and interface of our self-paced online courses. Each module contains one sample lesson drawn from our inventory of self-paced courses. Browse the lessons to see examples of instructor- and computer-graded assignments, instructor commentaries, practice exercises, and audio and video content.
+        <br><br>
+        Use the Next or Previous buttons at the bottom of each page to move sequentially through the course. You may also click the Home button on the left-hand menu at anytime to skip around in the course.</p>
+        <hr>
+        <h3>What you'll learn</h3>
+        <div class="learn">
+          <p><i class="far fa-check-circle"></i>Java from scratch - beginner to advanced</p>
+          <p><i class="far fa-check-circle"></i>Everything you need to become a Java epert and apply for Java jobs</p>
+          <p><i class="far fa-check-circle"></i>All about variables, funcions, objects and arrays</p>
+          <p><i class="far fa-check-circle"></i>All core features and concepts you need to know in modern Java development</p>
+          <p><i class="far fa-check-circle"></i>Projects-driven learning with plenty of examples</p>
+          <p><i class="far fa-check-circle"></i>Obejct-oriented programming</p>
+        </div>
+    </div>
+
+    <div class="enroll">
+      <h3>This course includes:</h3>
+      <p><i class="far fa-video"></i>52 hours video</p>
+      <p><i class="far fa-newspaper"></i>75 articles</p>
+      <p><i class="fa fa-cloud-download"></i>Downloadable resources</p>
+      <p><i class="far fa-infinity"></i>Full lifetime access</p>
+      <p><i class="far fa-mobile-alt"></i>Access on mobile and TV</p>
+      <p><i class="far fa-paperclip"></i>Assignments</p>
+      <p><i class="fa-solid fa-trophy"></i>Certificate of completition</p>
+      <div class="enroll-btn">
+        <a class="blue" href="course-start.html"> Enroll Course</a>
+      </div>
+
+    </div>
+  </section>
+  
+  <footer>
+    <div class="footer-col">
+      <h3>Top Products</h3>
+      <li>Manage Reputation</li>
+      <li>Power Tools</li>
+      <li>Manage Website</li>
+      <li>Marketing Service</li>
+      <li>Jobs</li>
+    </div>
+   
+    <div class="footer-col">
+      <h3>Top Products</h3>
+      <li>Manage Reputation</li>
+      <li>Manage Reputation</li>
+      <li>Manage Website</li>
+      <li>Marketing Service</li>
+    </div>
+   
+    <div class="footer-col">
+      <h3>Top products</h3>
+      <li>Power Tools</li>
+      <li>Managed Website</li>
+      <li>Top Products</li>
+      <li>Manage Reputation</li>
+    </div>
+   
+    <div class="footer-col">
+      <h3>Guides</h3>
+      <li>Research</li>
+      <li>Experts</li>
+      <li>Managed Website</li>
+      <li>Marketing Service</li>
+    </div>
+
+    <div class="footer-col">
+      <h3>Newsletter</h3>
+      <p>You can trast us. We only send promo offers, </p>
+      <div class="subscribe">
+        <input type="text" placeholder="Your Email address">
+        <a href="#" class="yellow">SUBSCRIBE</a>
+      </div>
+    </div>
+  
+    <div class="copyright">
+    <p>Copyright ©2022 All rights reserved |</p>
+    <div class="pro-links">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+   </div>
+  </footer>
+  
+  <script>
+    $('#menu-btn').click(function() {
+      $('nav .navigation ul').addClass('active') 
+    });
+    $('#menu-close').click(function() {
+      $('nav .navigation ul').removeClass('active') 
+    });
+  </script>
+
+</body>
+</html>
